@@ -25,138 +25,145 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 
-    <style>
+  <style>
 
 
-      body{
-        margin: 0;
-        overflow-x: hidden;
-        background: black;
-      }
+    body{
+      margin: 0;
+      overflow-x: hidden;
+      background: black;
+    }
 
-      .headerbar{
-        background-color: black;
-        width: 100vw;
-        height: 13vh;
-        position: fixed;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        z-index: 1;
-
-
-
-
-
-      }
-
-      .logo{
-        background-image: url("../assests/images/header_logo.png");
-        background-size: cover;
-        transform: scale(75%);
-        width: auto;
-        max-height:105px ;
-        position: absolute;
-        left: -30px;
-      }
-
-      nav{
-        display: flex;
-        justify-content: right;
-        align-items: center;
-
-      }
-
-
-      ul{
-        list-style: none;
-        display: flex;
-        position: absolute;
-        right: 10px;
-      }
-
-      ul>li>a{
-        margin: 20px;
-        color: white;
-        font-family:"IBM Plex Sans", sans-serif;
-        font-weight:bold;
-        font-size: 1.2rem;
-        text-decoration: none;
-      }
-
-
-      .MyImg{
-        transform: translate(14px,140px) rotate(-1deg) scale(96%);
-        background-size: cover;
-
-      }
-
-      .nameposition{
-        transform: translate(614px,-300px)}
-
-
-      #first{
-        font-size: 2rem;
-        color: whitesmoke;
-        transform: translate(-119px,-86px);
-      }
-
-      #sec{
-        margin: 0;
-        font-size: 6rem;
-        color: limegreen;
-        transform: translate(17px,-118px);
-      }
-
-      #thir{
-        margin: 0;
-        font-size: 3.6rem;
-        color: whitesmoke;
-        transform: translate(23px,-128px);
-      }
-
-      #four{
-        margin: 0;
-        font-size: 1.5rem;
-        color: whitesmoke;
-        transform: translate(-390px,-125px);
-        text-align: center;
-        font-family:  "Poppins", sans-serif;
-        font-weight: normal;
-      }
-
-      .btn{
-        transform: translate(208px, -65px);
-      }
-
-      .btn>button{
-              border-radius: 25px;
-              width: 147px;
-              height: 37px;
-              font-weight: bold;
-              font-size:1.1rem ;
-      }
-
-      #cv_btn{
-           margin-right: 35px;
-           background: black;
-           color: lime;
-           border: 2px solid lime;
-          /*transition-duration: 10s;*/
-           transition-timing-function:ease;
-           transition-property: background,border,transform;
-
-      }
-
-      #hire_btn{
-         background: orange;
-         color: white;
-      }
+    .headerbar{
+      background-color: gray;
+      width: 100%;
+      height: 13vh;
+      position: fixed;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
 
 
 
 
-      /*About Me Page____Css*/
+
+    }
+
+    .logo{
+      background-image: url("../assests/images/header_logo.png");
+      background-size: cover;
+      transform: scale(75%);
+      width: auto;
+      max-height:105px ;
+      position: absolute;
+      left: -30px;
+    }
+
+    nav{
+      display: flex;
+      justify-content: right;
+      align-items: center;
+
+    }
+
+
+    ul{
+      list-style: none;
+      display: flex;
+      position: relative;
+      right: -500px;
+    }
+
+    ul>li>a{
+      margin: 20px;
+      color: white;
+      font-family:"IBM Plex Sans", sans-serif;
+      font-weight:bold;
+      font-size: 1.2rem;
+      text-decoration: none;
+    }
+
+
+    .MyImg{
+      transform: translate(14px,140px) rotate(-1deg) scale(96%);
+      background-size: cover;
+
+    }
+
+    .nameposition{
+     /* transform: translate(614px,-300px)*/
+      position: relative;
+      top: -308px;
+      right:-637px;
+      border: 2px solid white;
+    }
+
+
+    #first{
+      font-size: 2rem;
+      color: whitesmoke;
+     /* transform: translate(-119px,-86px);*/
+
+      transform: translate(-2em,-2.3em);
+    }
+
+    #sec{
+      margin: 0;
+      font-size: 6rem;
+      color: limegreen;
+      transform: translate(17px,-118px);
+    }
+
+    #thir{
+      margin: 0;
+      font-size: 3.6rem;
+      color: whitesmoke;
+      transform: translate(23px,-128px);
+    }
+
+    #four{
+      margin: 0;
+      font-size: 1.5rem;
+      color: whitesmoke;
+      transform: translate(-390px,-125px);
+      text-align: center;
+      font-family:  "Poppins", sans-serif;
+      font-weight: normal;
+    }
+
+    .btn{
+      transform: translate(208px, -65px);
+    }
+
+    .btn>button{
+      border-radius: 25px;
+      width: 147px;
+      height: 37px;
+      font-weight: bold;
+      font-size:1.1rem ;
+    }
+
+    #cv_btn{
+      margin-right: 35px;
+      background: black;
+      color: lime;
+      border: 2px solid lime;
+      /*transition-duration: 10s;*/
+      transition-timing-function:ease;
+      transition-property: background,border,transform;
+
+    }
+
+    #hire_btn{
+      background: orange;
+      color: white;
+    }
+
+
+
+
+    /*About Me Page____Css*/
 
     body>main:nth-child(2){
       position: relative;
@@ -167,7 +174,7 @@
 
     .title{
       width: 100vw;
-     /* position: sticky;*/
+      /* position: sticky;*/
       top: 100px;
       text-align: center;
     }
@@ -182,8 +189,8 @@
 
 
     .myImg{
-        transform: scale(45%);
-        border-radius: 50%;
+      transform: scale(45%);
+      border-radius: 50%;
     }
 
     #PhotoFrame{
@@ -197,6 +204,8 @@
       justify-content: center;
       align-items: center;
     }
+
+
 
     .details_sec{
       width: 600px;
@@ -213,7 +222,7 @@
 
 
     .Social_meadias{
-           /*transform: translate(-885px, -483px);*/
+      /*transform: translate(-885px, -483px);*/
       transform: translate(-195px, -588px)
     }
 
@@ -228,43 +237,102 @@
 
     /*Education-journey section*/
 
-      #education-journey{
-        height: 100vh;
-        position: relative;
-        top: -162px;
-      }
+    #education-journey{
+      height: 100vh;
+      position: relative;
+      top: -162px;
+    }
 
 
-      #Education_title{
-        font-size: 3rem;
-        font-weight: bold;
-        color: white;
-        transform: translate(164px,10px);
-      }
+    #Education_title{
+      font-size: 3rem;
+      font-weight: bold;
+      color: white;
+      transform: translate(164px,10px);
+    }
 
 
-      .education_sec{
-        border: 2px solid lime;
-        width: 90vh;
-        height: 100vh;
-        transform: translate(756px, -169px);
 
-        display: block;
-        justify-content: space-evenly;
-        align-items: center;
-      }
+    .education_sec {
+      border: 2px solid white;
+      width: 70vh;
+      height: 70vh;
+      overflow-y: auto;
+      overflow-x: hidden;
+      position: absolute;
+      right: -48em;
+      left: 0;
+      bottom: 220px;
+      margin: auto;
+      padding: 10px;
+    }
 
-      .e-card{
 
-        width: 60vh;
-        height: 20vh;
-        border-radius: 30px;
-        border: 2px solid lime;
-        margin-bottom: 20px;
+    ::-webkit-scrollbar {
+      width: 10px;
+      height: 100px;
+    }
 
-        background: linear-gradient(to right,rgba(0, 300, 200, 0.20), black);
+    ::-webkit-scrollbar-thumb {
+      background: orangered;
+      border-radius: 20px;
+      height: 100px;
+    }
 
-      }
+
+
+    ::-webkit-scrollbar-track {
+      background: #333; /* Track background color */
+    }
+
+
+    .e-card {
+      width: 60vh;
+      height: 20vh;
+      border-radius: 30px;
+      border: 2px solid lime;
+      margin-bottom: 20px;
+      background: linear-gradient(to right, rgba(0, 300, 200, 0.20), black);
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+    }
+
+
+
+
+
+
+    /*Language & Tools*/
+
+    #Language-Tools{
+      height: 100vh;
+      background-color: #00ff88;
+    }
+
+
+    .project-count{
+      width: 60vw;
+      height: 15vh;
+      background: #f0f0f0;
+      border-radius: 50px;
+
+      position: relative;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
+
+
+    #title{
+      text-align: center;
+      font-size: 4rem;
+    }
+
+
+
+
+
 
 
 
@@ -279,26 +347,27 @@
 
     }
 
-      #cv_btn:hover{
-        background: lime;
-        color: black;
-        font-weight: bold;
-      }
+    #cv_btn:hover{
+      background: lime;
+      color: black;
+      font-weight: bold;
+    }
 
-      #hire_btn:hover{
-        background: black;
-        color: orange;
-        border: 2px solid orange;
-      }
-
-
-      .Social_meadias>a>img:hover{
-        transform: scale(60%);
-
-      }
+    #hire_btn:hover{
+      background: black;
+      color: orange;
+      border: 2px solid orange;
+    }
 
 
-   </style>
+    .Social_meadias>a>img:hover{
+      transform: scale(60%);
+    }
+
+
+
+
+  </style>
 
 </head>
 
@@ -391,16 +460,16 @@
   </main>
 
   <!--Socail Meadia Navigation-->
-    <section>
-      <nav class="Social_meadias">
-        <a href="https://www.google.com/"><img src="../assests/images/linkdin-green.png" title="linkdin" alt="Linkdin_white"></a>
-        <a href=""><img src="../assests/images/facebook-green.png" title="Facebook" alt="Facebook_white"></a>
-        <a href=""><img src="../assests/images/instergram-green.png" title="instergram" alt="Intergram_white"></a>
-        <a href=""><img src="../assests/images/mail-green.png" title="mail" alt="Mail_white"></a>
-        <a href=""><img src="../assests/images/github-green.png" title="github" alt="github_white" ></a>
-      </nav>
+  <section>
+    <nav class="Social_meadias">
+      <a href="https://www.google.com/"><img src="../assests/icons/linkdin-green.png" title="linkdin" alt="Linkdin_white"></a>
+      <a href=""><img src="../assests/icons/facebook-green.png" title="Facebook" alt="Facebook_white"></a>
+      <a href=""><img src="../assests/icons/instergram-green.png" title="instergram" alt="Intergram_white"></a>
+      <a href=""><img src="../assests/icons/mail-green.png" title="mail" alt="Mail_white"></a>
+      <a href=""><img src="../assests/icons/github-green.png" title="github" alt="github_white" ></a>
+    </nav>
 
-    </section>
+  </section>
 
 </main>
 
@@ -419,47 +488,78 @@
   </div>
 
   <!--Eduaction Details-->
-  <main  class="education_sec">
+  <section  class="education_sec">
+
     <!--Ijse-->
-    <section class="e-card">
+    <div class="e-card">
       <img src="">
       <p>Lorem ipsum dolor sit amet</p>
       <p>Lorem ipsum dolor sit amet</p>
       <p>Lorem ipsum dolor sit amet</p>
-    </section>
+    </div>
 
     <!--Sliit-->
-    <section class="e-card">
+    <div class="e-card">
       <img src="">
       <p>Lorem ipsum dolor sit amet</p>
       <p>Lorem ipsum dolor sit amet</p>
       <p>Lorem ipsum dolor sit amet</p>
-    </section>
+    </div>
 
     <!--TEB-->
-    <section class="e-card">
+    <div class="e-card">
       <img src="">
       <p>Lorem ipsum dolor sit amet</p>
       <p>Lorem ipsum dolor sit amet</p>
       <p>Lorem ipsum dolor sit amet</p>
-    </section>
+    </div>
 
     <!--Britishway-->
-    <section class="e-card">
+    <div class="e-card">
       <img src="">
       <p>Lorem ipsum dolor sit amet</p>
       <p>Lorem ipsum dolor sit amet</p>
       <p>Lorem ipsum dolor sit amet</p>
-    </section>
+    </div>
 
     <!--School-->
-    <section class="e-card">
+    <div class="e-card">
       <img src="">
       <p>Lorem ipsum dolor sit amet</p>
       <p>Lorem ipsum dolor sit amet</p>
       <p>Lorem ipsum dolor sit amet</p>
+    </div>
+
+
     </section>
 
+
+
+</main>
+
+
+<!--Language & tools-->
+<main id="Language-Tools">
+
+  <!--count my projects-->
+  <div class="project-count">
+    <p>lorem......</p>
+  </div>
+
+  <h1 id="title">Languages & Tools</h1>
+
+  <!--Tools Icons-->
+  <main>
+    <section>
+     <!-- <img src="../assests/icons/java.png">
+      <img src="../assests/icons/mysql.png">
+      <img src="../assests/icons/figma.png">
+      <img src="../assests/icons/html.png">
+      <img src="../assests/icons/css.png">
+      <img src="../assests/icons/python.png">
+      <img src="../assests/icons/java-script.png">
+      <img src="../assests/icons/java.png">-->
+    </section>
   </main>
 
 </main>
