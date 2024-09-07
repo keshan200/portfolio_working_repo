@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta charset="UTF-8">
+  <meta name="description" content="this is the description">
+  <meta name="keywords" content="java, html, css, js, go, react, angular">
+  <meta name="author" content="ijse">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="../assets/favicon.png"> <!-- Favicon -->
+  <link rel="stylesheet" href="assets/styles/normalize.css">
+
+
+
+  <!--HeaderBar Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <title>portfolio</title>
+
+
+  <!--lstText Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+  <style>
+
+
+    body{
+      margin: 0;
+      overflow-x: hidden;
+      background: black;
+    }
+
+    .headerbar{
+      background-color: gray;
+      width: 100%;
+      height: 13vh;
+      position: fixed;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+
+
+
+
+
+    }
+
+    .logo{
+      background-image: url("assests/images/header_logo.png");
+      background-size: cover;
+      transform: scale(75%);
+      width: auto;
+      max-height:105px ;
+      position: absolute;
+      left: -30px;
+    }
+
+    nav{
+      display: flex;
+      justify-content: right;
+      align-items: center;
+
+    }
+
+
+    ul{
+      list-style: none;
+      display: flex;
+      position: relative;
+      right: -500px;
+    }
+
+    ul>li>a{
+      margin: 20px;
+      color: white;
+      font-family:"IBM Plex Sans", sans-serif;
+      font-weight:bold;
+      font-size: 1.2rem;
+      text-decoration: none;
+    }
+
+
+    .MyImg{
+      transform: translate(14px,140px) rotate(-1deg) scale(96%);
+      background-size: cover;
+
+    }
+
+    .nameposition{
+     /* transform: translate(614px,-300px)*/
+      position: relative;
+      top: -308px;
+      right:-637px;
+      border: 2px solid white;
+    }
+
+
+    #first{
+      font-size: 2rem;
+      color: whitesmoke;
+     /* transform: translate(-119px,-86px);*/
+
+      transform: translate(-2em,-2.3em);
+    }
+
+    #sec{
+      margin: 0;
+      font-size: 6rem;
+      color: limegreen;
+      transform: translate(17px,-118px);
+    }
+
+    #thir{
+      margin: 0;
+      font-size: 3.6rem;
+      color: whitesmoke;
+      transform: translate(23px,-128px);
+    }
+
+    #four{
+      margin: 0;
+      font-size: 1.5rem;
+      color: whitesmoke;
+      transform: translate(-390px,-125px);
+      text-align: center;
+      font-family:  "Poppins", sans-serif;
+      font-weight: normal;
+    }
+
+    .btn{
+      transform: translate(208px, -65px);
+    }
+
+    .btn>button{
+      border-radius: 25px;
+      width: 147px;
+      height: 37px;
+      font-weight: bold;
+      font-size:1.1rem ;
+    }
+
+    #cv_btn{
+      margin-right: 35px;
+      background: black;
+      color: lime;
+      border: 2px solid lime;
+      /*transition-duration: 10s;*/
+      transition-timing-function:ease;
+      transition-property: background,border,transform;
+
+    }
+
+    #hire_btn{
+      background: orange;
+      color: white;
+    }
+
+
+
+
+    /*About Me Page____Css*/
+
+    body>main:nth-child(2){
+      position: relative;
+      top: -178px;
+      height: 100vh;
+    }
+
+
+    .title{
+      width: 100vw;
+      /* position: sticky;*/
+      top: 100px;
+      text-align: center;
+    }
+
+    .title>p{
+      color: white;
+      font-size: 4rem;
+      font-weight: bold;
+      margin: 0;
+
+    }
+
+
+    .myImg{
+      transform: scale(45%);
+      border-radius: 50%;
+    }
+
+    #PhotoFrame{
+      background: #333333;
+      width: 25em;
+      height: 25em;
+      border-radius: 100%;
+      transform: translate(176px,38px);
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+
+    .details_sec{
+      width: 600px;
+      height: 500px;
+      transform: translate(787px, -290px);
+      margin: 0;
+      font-family: "Roboto", sans-serif;
+      font-size: 1.2rem;
+    }
+
+    #details{
+      color: white;
+    }
+
+
+    .Social_meadias{
+      /*transform: translate(-885px, -483px);*/
+      transform: translate(-195px, -588px)
+    }
+
+    .Social_meadias>a>img{
+
+      transform: scale(40%);
+      margin-right: 1px;
+      transition-duration: 0.5s;
+    }
+
+
+
+    /*Education-journey section*/
+
+    #education-journey{
+      height: 100vh;
+      position: relative;
+      top: -162px;
+    }
+
+
+    #Education_title{
+      font-size: 3rem;
+      font-weight: bold;
+      color: white;
+      transform: translate(164px,10px);
+    }
+
+
+
+    .education_sec {
+      border: 2px solid white;
+      width: 70vh;
+      height: 70vh;
+      overflow-y: auto;
+      overflow-x: hidden;
+      position: absolute;
+      right: -48em;
+      left: 0;
+      bottom: 220px;
+      margin: auto;
+      padding: 10px;
+    }
+
+
+    ::-webkit-scrollbar {
+      width: 10px;
+      height: 100px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: orangered;
+      border-radius: 20px;
+      height: 100px;
+    }
+
+
+
+    ::-webkit-scrollbar-track {
+      background: #333; /* Track background color */
+    }
+
+
+    .e-card {
+      width: 60vh;
+      height: 20vh;
+      border-radius: 30px;
+      border: 2px solid lime;
+      margin-bottom: 20px;
+      background: linear-gradient(to right, rgba(0, 300, 200, 0.20), black);
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+    }
+
+
+
+
+
+
+    /*Language & Tools*/
+
+    #Language-Tools{
+      height: 100vh;
+      background-color: #00ff88;
+    }
+
+
+    .project-count{
+      width: 60vw;
+      height: 15vh;
+      background: #f0f0f0;
+      border-radius: 50px;
+
+      position: relative;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
+
+
+    #title{
+      text-align: center;
+      font-size: 4rem;
+    }
+
+
+
+
+
+
+
+
+
+
+    /*animations*/
+
+    .NavigtionLink>li>a:hover{
+      color: lime;
+      width: 20px;
+      height: 10px;
+
+    }
+
+    #cv_btn:hover{
+      background: lime;
+      color: black;
+      font-weight: bold;
+    }
+
+    #hire_btn:hover{
+      background: black;
+      color: orange;
+      border: 2px solid orange;
+    }
+
+
+    .Social_meadias>a>img:hover{
+      transform: scale(60%);
+    }
+
+
+
+
+  </style>
+
+</head>
+
+
+
+<body>
+
+<!--Home Page-->
+<main id="Home">
+
+  <!--header Section-->
+  <header>
+
+    <!--navigate section -->
+    <section class="headerbar">
+      <!--navigate section img-->
+      <div class="logo">
+        <img  src="assests/images/header_logo.png">
+      </div>
+
+      <!--Home page Navigation-->
+      <nav>
+        <ul class="NavigtionLink">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a>Education</a></li>
+          <li><a>Tools</a></li>
+          <li><a>Projects</a></li>
+          <li><a>Assigment</a></li>
+          <li><a>Services</a></li>
+          <li><a>Contact me</a></li>
+        </ul>
+      </nav>
+
+    </section>
+  </header>
+
+  <!--HomePage Content-->
+  <main>
+
+    <!--HomePage Myphoto-->
+    <div class="MyImg">
+      <img src="assests/images/my_photo.png">
+    </div>
+
+    <!--HomePage Name & Position-->
+    <section class="nameposition">
+
+      <!--Text-->
+      <div >
+        <h5 id="first">Hi there</h5>
+        <h6 id="sec">I'm Keshan Silva</h6>
+        <h5 id="thir">Software Engineer-Fullstack</h5>
+        <br>
+        <h3 id="four">i am undergraduate Software engineer .<br>based in Sri Lanka</h3>
+      </div>
+
+      <!--buttons-->
+      <div class="btn">
+        <button id="cv_btn">Download CV</button>
+        <button id="hire_btn">Hire me</button>
+      </div>
+    </section>
+
+  </main>
+</main>
+
+
+<!--About Me Page-->
+<main id="about-me">
+
+  <!--Title-->
+  <div class="title">
+    <p>About Me</p>
+  </div>
+
+
+  <!--about me-->
+  <main>
+    <!--My image-->
+    <div id="PhotoFrame">
+      <img class="myImg" src="assests/images/my_image_2.png" alt="Keshan" title="My_Photo">
+    </div>
+
+    <!--my Details-->
+    <section class="details_sec">
+      <p id="details">I am passionate abotut using technology to solve complex problems and make a positive impact on the world. So currently I am Studying Software Engineering at IJSE-Institute of Software Engineering.<br><br> AS a Creative problerm Solver and team player, I am committed to delivering high - quality work and exceeding exceptation. I am eager to connect woth other technology professionals and explore new opportunities for growth and development. </p>
+    </section>
+
+  </main>
+
+  <!--Socail Meadia Navigation-->
+  <section>
+    <nav class="Social_meadias">
+      <a href="https://www.google.com/"><img src="../assests/icons/linkdin-green.png" title="linkdin" alt="Linkdin_white"></a>
+      <a href=""><img src="assests/icons/facebook-green.png" title="Facebook" alt="Facebook_white"></a>
+      <a href=""><img src="assests/icons/instergram-green.png" title="instergram" alt="Intergram_white"></a>
+      <a href=""><img src="assests/icons/mail-green.png" title="mail" alt="Mail_white"></a>
+      <a href=""><img src="assests/icons/github-green.png" title="github" alt="github_white" ></a>
+    </nav>
+
+  </section>
+
+</main>
+
+
+<!--Education Journey-->
+<main id="education-journey">
+
+  <!--Title-->
+  <div>
+    <p id="Education_title"> Journey Of Education</p>
+  </div>
+
+  <!--main iamge-->
+  <div>
+    <img src="">
+  </div>
+
+  <!--Eduaction Details-->
+  <section  class="education_sec">
+
+    <!--Ijse-->
+    <div class="e-card">
+      <img src="">
+      <p>Lorem ipsum dolor sit amet</p>
+      <p>Lorem ipsum dolor sit amet</p>
+      <p>Lorem ipsum dolor sit amet</p>
+    </div>
+
+    <!--Sliit-->
+    <div class="e-card">
+      <img src="">
+      <p>Lorem ipsum dolor sit amet</p>
+      <p>Lorem ipsum dolor sit amet</p>
+      <p>Lorem ipsum dolor sit amet</p>
+    </div>
+
+    <!--TEB-->
+    <div class="e-card">
+      <img src="">
+      <p>Lorem ipsum dolor sit amet</p>
+      <p>Lorem ipsum dolor sit amet</p>
+      <p>Lorem ipsum dolor sit amet</p>
+    </div>
+
+    <!--Britishway-->
+    <div class="e-card">
+      <img src="">
+      <p>Lorem ipsum dolor sit amet</p>
+      <p>Lorem ipsum dolor sit amet</p>
+      <p>Lorem ipsum dolor sit amet</p>
+    </div>
+
+    <!--School-->
+    <div class="e-card">
+      <img src="">
+      <p>Lorem ipsum dolor sit amet</p>
+      <p>Lorem ipsum dolor sit amet</p>
+      <p>Lorem ipsum dolor sit amet</p>
+    </div>
+
+
+    </section>
+
+
+
+</main>
+
+
+<!--Language & tools-->
+<main id="Language-Tools">
+
+  <!--count my projects-->
+  <div class="project-count">
+    <p>lorem......</p>
+  </div>
+
+  <h1 id="title">Languages & Tools</h1>
+
+  <!--Tools Icons-->
+  <main>
+    <section>
+     <!-- <img src="../assests/icons/java.png">
+      <img src="../assests/icons/mysql.png">
+      <img src="../assests/icons/figma.png">
+      <img src="../assests/icons/html.png">
+      <img src="../assests/icons/css.png">
+      <img src="../assests/icons/python.png">
+      <img src="../assests/icons/java-script.png">
+      <img src="../assests/icons/java.png">-->
+    </section>
+  </main>
+
+</main>
+
+
+
+</body>
+
+
+
+
+</html>
