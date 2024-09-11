@@ -39,6 +39,7 @@
       margin: 0;
       overflow-x: hidden;
       background: black;
+
     }
 
     .headerbar{
@@ -88,7 +89,7 @@
       color: white;
       font-family:"IBM Plex Sans", sans-serif;
       font-weight:bold;
-      font-size: 1.2rem;
+      font-size: 1.3rem;
       text-decoration: none;
     }
 
@@ -318,7 +319,7 @@
 
     #Language-Tools{
       height: 100vh;
-      background-color: black;
+      background-color: cyan;
       position: relative;
       top: -307px;
     }
@@ -369,6 +370,51 @@
 
 
 
+#project-page{
+  height: 100vh;
+  background-color: gray;
+  position: relative;
+  top: -307px;
+
+}
+
+.title-p{
+  font-size: 4rem;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.project-section{
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.project-card{
+  border: 2px solid blue;
+  display: inline-grid;
+  justify-content: space-between;
+  padding: 30px;
+
+}
+
+.project-card div{
+   text-align: center;
+    height: 30vh;
+   background-color: red;
+   padding: 100px;
+   margin: 20px auto;
+   border-radius: 50px;
+}
+
+
+
+
+
 
 
 
@@ -400,6 +446,9 @@
     .Social_meadias>a>img:hover{
       transform: scale(60%);
     }
+
+
+
 
 
 
@@ -511,7 +560,7 @@
 </main>
 
 
-<!--Education Journey-->
+<!--Education Journey page-->
 <main id="education-journey">
 
   <!--Title-->
@@ -575,7 +624,7 @@
 </main>
 
 
-<!--Language & tools-->
+<!--Language & tools page-->
 <main id="Language-Tools">
 
   <!--count my projects-->
@@ -607,6 +656,55 @@
   </main>
 
 </main>
+
+
+
+<!--Project Section page-->
+<main id="project-page">
+
+  <!--Title-->
+  <div class="title-p">
+    <h3>Projects</h3>
+  </div>
+
+  <!--projects-->
+  <main class="project-section">
+
+    <!--project 1-->
+    <section class="project-card">
+      <div>
+      <p>lorem.................</p>
+      <img src="">
+      <p>lorem..............</p>
+      <a href=""><img src=""></a>
+      </div>
+    </section>
+
+    <!--project 2-->
+    <section  class="project-card">
+      <div>
+      <p>lorem.................</p>
+      <img src="">
+      <p>lorem..............</p>
+      <a href=""><img src=""></a>
+      </div>
+    </section>
+
+    <!--project 3-->
+    <section  class="project-card">
+      <div>
+        <p>lorem.................</p>
+      <img src="">
+      <p>lorem..............</p>
+      <a href=""><img src=""></a>
+      </div>
+    </section>
+
+  </main>
+
+
+</main>
+
 
 
 
