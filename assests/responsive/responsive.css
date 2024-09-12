@@ -1,6 +1,6 @@
 
 
-@media mobile and (max-width: 320px) {
+@media all and (max-width: 320px) {
     nav{
         display: none;
     }
