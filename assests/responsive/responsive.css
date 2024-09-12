@@ -1,0 +1,15 @@
+
+
+@media mobile and (max-width: 320px) {
+    nav{
+        display: none;
+    }
+
+    .myImg{
+        text-align: center;
+    }
+
+    #first{
+        transform: translate(10px,20px);
+    }
+}
