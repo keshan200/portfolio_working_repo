@@ -1,12 +1,17 @@
 
 
-@media all and (max-width: 320px) {
-    nav{
+@media all and (max-width:500px) {
+
+    nav ul{
         display: none;
     }
 
-    .myImg{
-        text-align: center;
+    body{
+        overflow-x: hidden;
+    }
+
+    .myImg {
+       transform: scale(6%);
     }
 
     #first{
