@@ -1,0 +1,134 @@
+#Home{
+    height: 100vh;
+    width: 100vw;
+    background-color: gray;
+}
+
+
+ .headerbar{
+    background-color: black;
+    width:100vw ;
+    height: 13vh;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+
+}
+
+.logo{
+    background-image: url("assests/images/header_logo.png");
+    background-size: cover;
+    transform: scale(75%);
+    width: auto;
+    max-height:105px ;
+    position: absolute;
+    left: -30px;
+}
+
+nav{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+     border: 2px solid white;
+
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    position: relative;
+    right: -500px;
+    border: 2px solid red;
+}
+
+ul>li>a{
+    margin: 20px;
+    color: white;
+    font-family:"IBM Plex Sans", sans-serif;
+    font-weight:bold;
+    font-size: 1.3rem;
+    text-decoration: none;
+
+    transition-duration: 0.2s;
+}
+
+
+.MyImg {
+    transform: translate(14px,135px) rotate(-1deg) scale(96%);
+    border: 2px solid greenyellow;
+    width: 436px;
+}
+
+.nameposition{
+    /* transform: translate(614px,-300px)*/
+    position: relative;
+    top: -300px;
+    right:-637px;
+
+    width: 48em;
+    border: 2px solid greenyellow;
+}
+
+#first{
+    font-size: 2rem;
+    color: whitesmoke;
+    /* transform: translate(-119px,-86px);*/
+
+    transform: translate(-2em,-2.3em);
+}
+
+#sec{
+    margin: 0;
+    font-size: 6rem;
+    color: limegreen;
+    transform: translate(17px,-118px);
+}
+
+#thir{
+    margin: 0;
+    font-size: 3.6rem;
+    color: whitesmoke;
+    transform: translate(23px,-128px);
+}
+
+#four{
+    margin: 0;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    transform: translate(-390px,-125px);
+    text-align: center;
+    font-family:  "Poppins", sans-serif;
+    font-weight: normal;
+}
+
+.btn{
+    transform: translate(208px, -65px);
+}
+
+.btn button{
+    border-radius: 25px;
+    width: 147px;
+    height: 37px;
+    font-weight: bold;
+    font-size:1.1rem ;
+}
+
+#cv_btn{
+    margin-right: 35px;
+    background: black;
+    color: lime;
+    border: 2px solid lime;
+    /*transition-duration: 10s;*/
+    transition-timing-function:ease;
+    transition-property: background,border,transform;
+
+}
+
+#hire_btn{
+    background: orange;
+    color: white;
+}
+

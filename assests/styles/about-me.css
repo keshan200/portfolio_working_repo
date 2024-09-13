@@ -1,0 +1,67 @@
+body>main:nth-child(2){
+    position: relative;
+    top: -178px;
+    height: 100vh;
+}
+
+
+.title{
+    width: 100vw;
+    top: 100px;
+    text-align: center;
+}
+
+.title>p{
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0;
+
+}
+
+
+.myImg{
+    transform: scale(45%);
+    border-radius: 50%;
+}
+
+#PhotoFrame{
+    background: #333333;
+    width: 25em;
+    height: 25em;
+    border-radius: 100%;
+    transform: translate(176px,38px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.details_sec{
+    width: 600px;
+    height: 500px;
+    transform: translate(787px, -290px);
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+}
+
+#details{
+    color: white;
+}
+
+
+.Social_meadias{
+    /*transform: translate(-885px, -483px);*/
+    transform: translate(-195px, -588px)
+}
+
+.Social_meadias>a>img{
+
+    transform: scale(40%);
+    margin-right: 1px;
+    transition-duration: 0.5s;
+}
+

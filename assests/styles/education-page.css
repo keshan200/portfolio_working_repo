@@ -1,0 +1,66 @@
+#education-journey{
+    height: 100vh;
+    position: relative;
+    top: -162px;
+}
+
+
+#Education_title{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    transform: translate(164px,10px);
+}
+
+
+
+.education_sec {
+    border: 2px solid white;
+    width: 70vh;
+    height: 70vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: absolute;
+    right: -48em;
+    left: 0;
+    bottom: 220px;
+    margin: auto;
+    padding: 10px;
+}
+
+
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 100px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: orangered;
+    border-radius: 20px;
+    height: 100px;
+}
+
+
+
+::-webkit-scrollbar-track {
+    background: #333;
+}
+
+
+.e-card {
+    width: 60vh;
+    height: 20vh;
+    border-radius: 30px;
+    border: 2px solid lime;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, rgba(0, 300, 200, 0.20), black);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+
+

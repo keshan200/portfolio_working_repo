@@ -1,0 +1,97 @@
+/*Language & Tools*/
+
+#Language-Tools{
+    height: 100vh;
+    background-color: cyan;
+    position: relative;
+    top: -307px;
+}
+
+
+.project-count{
+    width: 60vw;
+    height: 15vh;
+    background: linear-gradient(to right top,lime,green, lightseagreen);
+    border-radius: 50px;
+
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+#title{
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+}
+
+
+.img-section{
+
+}
+
+.img-section img{
+    transform: scale(35%);
+    margin-right: -65px;
+}
+
+
+.first-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -80px;
+}
+
+
+
+#project-page{
+    height: 100vh;
+    background-color: gray;
+    position: relative;
+    top: -307px;
+
+}
+
+.title-p{
+    font-size: 4rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.project-section{
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.project-card{
+    border: 2px solid blue;
+    display: inline-grid;
+    justify-content: space-between;
+    padding: 30px;
+
+}
+
+.project-card div{
+    text-align: center;
+    height: 30vh;
+    background-color: red;
+    padding: 100px;
+    margin: 20px auto;
+    border-radius: 50px;
+}
+
+
