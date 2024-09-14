@@ -2,44 +2,22 @@
 
 @media all and (max-width: 500px){
 
-    nav ul{
-        display: none;
+nav{
+    display: none;
+}
+
+
+    .MyImg{
+        transform: translate(-60px, 50px) rotate(-1deg);
+        width: 100px;
+
     }
 
-
-    .headerbar{
-        background-color: red;
-        height: 13vh;
-        position: fixed;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        z-index: 1000;
+    .MyImg img{
+        width: 334px;
+        height: auto;
+        transform: translate(-50px, -74px);
     }
 
-    .myImg {
-        transform: translate(-59px, 89px) rotate(-1deg) scale(73%);
-        border: 2px solid white;
-    }
-
-    .nameposition{
-      /*  transform: translate(-22em, 32em);
-        position: relative;
-        border: 2px solid white;
-        width: 500px;*/
-
-        display: none;
-    }
-
-    #first{
-       /* font-size: 0.5rem;
-        transform:translate(-18em, -4.3em)*/
-        display: none;
-    }
-
-    #sec{
-        /*font-size: 0.5rem;*/
-        display: none;
-    }
 
 }
